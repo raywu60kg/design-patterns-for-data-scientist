@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "design-patterns-for-data-scientist"
+version = "0.1.0"
+description = ""
+authors = ["ray <wuhaohsiang1992@gmail.com>"]
+readme = "README.md"
+packages = [{include = "design_patterns_for_data_scientist"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
