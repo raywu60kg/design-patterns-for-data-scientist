@@ -9,6 +9,7 @@ packages = [{include = "design_patterns_for_data_scientist"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 pandas = "^2.0.1"
+sklearn = "^0.0.post4"
 
 
 [tool.poetry.group.dev.dependencies]

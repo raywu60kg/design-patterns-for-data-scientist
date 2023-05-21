@@ -8,7 +8,7 @@ This GitHub repository is a tribute to the informative video "8 Design Patterns 
 - Singleton
 
 #### Behavioural Patterns
-- PubSub
+- Observer
 - Iterator
 - Strategy
 

@@ -275,6 +275,17 @@ files = [
 ]
 
 [[package]]
+name = "sklearn"
+version = "0.0.post4"
+description = "deprecated sklearn package, use scikit-learn instead"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "sklearn-0.0.post4.tar.gz", hash = "sha256:0e81ec9c32d4bb418e7be8f1ec1027d174975502dc84cbc4f4564b4cba31e674"},
+]
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -313,4 +324,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9b89038fe4d15699029ac678999f08df2d2429e3546751af3c32770607ba0075"
+content-hash = "74d9ef27a681a4c4a891e7726064ca7d0fd057b70ca33d2fef93cb20def8851c"
